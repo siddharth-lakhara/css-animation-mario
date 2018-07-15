@@ -1,0 +1,55 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+/* .grass .sky .road{
+    position: relative;
+} */
+
+.sky {
+    height: 40%;
+    background: skyblue;
+}
+
+.cloud:nth-child(1) {
+    opacity: 0.8;
+    transform: scale(.7) translateY(100px);
+}
+
+.cloud:nth-child(2) {
+    transform: scale(.9) translateX(-200px);
+}
+.grass {
+    height: 30%;
+    background: seagreen;
+}
+
+.road {
+    height: 30%;
+    background: dimgray;
+    border-top: 10px solid gray;
+    border-bottom: 10px solid gray;
+    box-sizing: border-box;
+}
+
+.mario {
+    position: relative;
+    top: -42px;
+}
+
+.road-divider {
+    border: 5px dashed lightyellow;
+    width: 100%;
+    position: relative;
+    top: -40px;
+    box-sizing: border-box;
+}
+
+.luigi {
+    position: relative;
+    top: -100px;
+}
